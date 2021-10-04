@@ -124,6 +124,9 @@ section.recurso {
 		.testimonials-wrapper {
 			.flex();
 			flex-direction: column;
+			.gb-layout-testimonial-1 {
+				padding: 0!important;
+			}
 			.testimonial {
 				margin-bottom: 30px;
 				text-decoration: none;
@@ -153,8 +156,11 @@ section.recurso {
 				}
 			}
 		}
-		.cta button {
-			.inverse-btn(@primary-color);
+		.cta {
+			text-align: center;
+			button {
+				.inverse-btn(@featured-color)!important;
+			}
 		}
 	}
 }

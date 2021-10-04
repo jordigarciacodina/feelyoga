@@ -16,7 +16,7 @@ function bs_related_lessons() {
     if (is_singular(array('curso', 'clase'))) { ?>
 
         <aside class="related-lessons">
-            <h3><?php _e('Todas las clases de este curso', 'bs'); ?></h3>
+            <h3><?php _e('Todas las clases', 'bs'); ?></h3>
             <div class="wrap"> <?php
 
             global $post;

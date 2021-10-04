@@ -80,6 +80,7 @@ function bs_display_front_page_sections() {
 			$args = array(
 				'posts_per_page' 	=> 3,
 				'post_type' 		=> 'clase',
+				'category_name' 	=> 'suelta',
 				'order' 			=> 'DESC'
 			);
 
@@ -223,7 +224,7 @@ function bs_display_front_page_sections() {
 		 <div class="wrap">
 		 	<h3><?php echo get_theme_mod('testimonios_content_title'); ?></h3>
 			<div class="testimonials-wrapper">	<?php
-				$content = get_post_field( 'post_content', 398);
+				$content = get_post_field( 'post_content', 210);
 					if ( ! $content ) {
 						return;
 					}
